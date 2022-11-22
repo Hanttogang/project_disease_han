@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".Disease_Mites_Activity">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#C8C8C8"
+
+        >
+
+        <TextView
+            android:id="@+id/disease_mites_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/disease_title"
+            android:layout_marginTop="30px"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="쯔쯔가무시 바이러스"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/disease_mites_title2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/disease_premier"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:textSize="14sp"
+            android:text="쯔쯔가무시증 감염병 정보에 애해 자세히 알아보자"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/disease_mites_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:padding="20px"
+            android:background="#FFFFFF"
+            android:drawableLeft="@drawable/content_mites"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/disease_mites_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="14sp"
+            android:text="\n정의
+
+\n○ Orientia tsutsugamushi의 감염에 의한 급성 발열성 질환
+
+
+
+\n\n병원소
+
+\n○ 털진드기 유충
+
+
+
+\n\n감염원
+
+\n○ Orientia tsutsugamushi
+
+
+
+\n\n전파경로
+
+\n○ 감염된 털진드기 유충이 사람을 물어 감염 (주로 풀숲 및 관목숲에 분포)
+
+
+
+\n\n잠복기
+
+\n○ 1~3주
+
+
+
+\n\n사람간 전파
+
+\n○ 사람-사람 간 전파는 매우 드물지만,
+
+\n○ 감염된 환자의 혈액이나 체액 접촉을 통해 발생할 수 있음
+
+
+
+\n호발시기
+
+\n○ 10~12월
+
+
+
+\n\n호발대상
+
+\n○ 50대 이상
+
+
+
+\n\n치사율
+
+\n○ 0.1~0.2% (ʼ11~ʼ14년 기준)
+
+
+
+\n\n법정감염병
+
+\n○ 제3군
+
+
+
+\n\n진단 신고 기준
+
+\n▣ 신고범위 : 환자, 의사환자
+
+\n\n▣ 신고를 위한 진단기준
+
+  \n○ 환자 : 쯔쯔가무시증에 부합되는 임상증상을 나타내면서 확인 진단을 위한 검사기준에 따라 감염병병원체 감염이 확인된 사람
+
+  \n○ 의사환자
+
+    \n- 추정환자 : 임상증상 및 역학적 연관성을 감안하여 쯔쯔가무시증이 의심되며, 추정 진단을 위한 검사기준에 따라 감염이 추정되는 사람
+
+\n\n▣ 임상증상
+
+  \n○ 진드기 유충에 물린 부위에 나타나는 가피(eschar) 형성이 특징적임. 주요 가피 발견 신체부위는 피부가 겹치고 습한 곳으로, 가슴, 겨드랑이, 복부, 종아리 등에서 많이 확인됨
+
+  \n○ 심한 두통, 발열, 오한이 갑자기 발생하며 감기와 유사, 구토, 복통 발생
+
+  \n○ 발병 5일 이후 발진이 몸통에 나타나서 팔다리로 퍼지며 반점상 구진의 형태를 보임
+
+  \n○ 국소성 또는 전신성 림프절 종대와 간 비대, 비장 비대가 나타남
+
+  \n○ 가벼운 혼돈에서 섬망, 혼수상태까지 다양한 중증도의 의식수준의 변화가 동반될 수 있음
+
+\n\n▣ 진단을 위한 검사기준
+
+  \n○ 확인 진단
+
+   \n검체(혈액, 조직, 가피)에서 O. tsutsugamushi 분리 동정
+
+   \n회복기 혈청의 항체가가 급성기에 비하여 4배 이상 증가
+
+   \n검체(혈액, 조직, 가피)에서 특이 유전자 검출
+
+  \n○ 추정 진단
+
+   \n확인 진단 외의 기준으로 특이 항체 검출
+
+\n\n▣ 신고시기 : 지체없이 신고
+
+\n\n▣ 신고방법 : 감염병 발생 신고서를 작성하여 관할 보건소로 팩스 또는 웹(http://is.cdc.go.kr)의 방법으로 신고
+
+ \n* 사망(검안) 신고는 감염병환자등 사망(검안) 신고서, 병원체검사결과 신고는 병원체 검사결과 신고서를 작성하여 추가 신고
+
+\n\n▣ 질병관리청 담당부서 : 인수공통감염병관리과
+
+
+
+\n\nFAQ
+
+\nQ1. 쯔쯔가무시증의 예방법은 무엇입니까?
+
+\n○ 야외작업·활동 시 작업복(긴팔·긴바지, 모자, 목수건, 토시, 장갑, 양말, 장화) 착용, 농경지 및 거주지 주변 풀숲 제거, 풀숲에 옷을 벗어 놓지 않고 휴식 시 돗자리 사용, 야외작업·활동 후 작업복 세탁하기, 귀가 즉시 목욕·사워를 하는 등 예방수칙을 준수하여야 합니다.
+
+\n\nQ2. 쯔쯔가무시증 증상과 치료법은 무엇입니까?
+
+\n○ 쯔쯔가무시증은 보통 1~3주 정도의 잠복기를 거친 후 급성으로 발생하며, 두통, 발열, 오한, 구토, 발진, 근육통, 기침 등이 나타나고 털진드기 유충에 물린 부위에 가피가 형성됩니다. 감염초기에 적절한 항생제 치료 시 비교적 용이하게 회복되지만, 단순 감기몸살로 착각하여 치료시기를 놓치기 쉽기 때문에 주로 가을철에 위의 증상이 있을 경우 즉시 의료기관을 방문하여 신속한 진단과 치료를 받아야 합니다.
+
+\nQ3. 쯔쯔가무시증은 왜 가을에 많이 발생합니까?
+
+\n○ 쯔쯔가무시증은 병원체에 감염된 털진드기의 유충이 사람을 물어서 발생합니다. 연중 발생하지만, 여름철에 산란한 털진드기 알이 초가을부터 본격적으로 부화할 때 동물이나 사람의 체액을 섭취하며 성장하기 때문에 털진드기 유충이 활동하는 시기인 가을(9~11월)에 매개체와의 접촉을 통해 쯔쯔가무시증에 걸릴 확률이 높습니다. 털진드기의 성충이나 다른 성장단계에서는 미소곤 충류(예：톡토기)의 알을 먹고 삽니다.
+
+\n\nQ4. 쯔쯔가무시증은 봄에도 걸리나요?
+
+\n○ 진드기 종에 따라 봄에 발생 할 수 있습니다. 우리나라의 경우 충청도 지역을 중심으로 남부 지역에서 서식하는 활순털진드기 유충에 의해 가을에 집중하여 발생하지만, 북부에 주로 서식하지만 전국적인 분포를 나타내는 대잎털진드기 유충에 의해 봄·가을에도 발생합니다. 따라서, 지역·시기와 관계없이 농작업이나 야외활동 후 감기증상이나 가피가 발견되면 쯔쯔가무시증을 의심하고 적절한 치료를 받아야합니다.
+
+\n\nQ5. 털진드기는 곤충입니까?
+
+\n○ 진드기는 분류학적으로 곤충에 속하지 않고 거미강에 속하므로 유충의 경우에만 곤충과 같이 3쌍의 다리를 가지나 자충과 성충은 모두가 4쌍의 다리를 갖습니다. 간혹 진딧물과 혼동하게 되는데 진딧물은 식물의 액을 섭취하는 곤충으로서 사람을 공격하지 않습니다.
+
+\n\nQ6. 모든 털진드기가 쯔쯔가무시증을 일으킵니까?
+
+\n○ 그렇지 않습니다. 진드기는 세계적으로 4~5만종이 확인되어 있으나, 그 중 털진드기과에 속하는 진드기류만 쯔쯔가무시증과 관련이 있습니다. 우리나라에서 확인된 털진드기과는 51종입니다. 현재까지 국내에서 확인된 쯔쯔가무시균 매개종은 대잎털진드기, 활순털진드기, 수염털진드기, 동양털진드기, 반도털진드기, 사륙털진드기, 조선방망이털진드기 등 7종입니다. 이중에서도 쯔쯔가무시균에 감염이 되있는 진드기의 유충만이 다시 감염을 일으킬 가능성이 있으며, 대표적인 종은 활순털진드기라고 할 수 있습니다.
+
+\n\nQ7. 쯔쯔가무시증 초기 환자의 PCR 진단은 유효한가요?
+
+\n○ 쯔쯔가무시증 발병일이 확인된 검체 110건을 대상으로 발병 초기 환자의 PCR 진단 유효성에 대해 조사한 결과, 쯔쯔가무시 유전자 검출은 29% (32건/110건)였으며, 이 중40%는 혈청학적 항체가가 IgG가 1:256미만 혹은 IgM이 1:16미만의 검체였습니다. 유전자 검출된 32건 중 94%(30/32건)가 발병 후 8일 이내이므로 발병초기 PCR진단이 유효하게 나타났습니다.
+
+ \n※ 정확한 진단을 위해서는 혈청학적 진단과 병행하여 진단하는 것이 바람직함. (2007년)
+
+\n\nQ8. 건강한 사람을 대상으로 한 쯔쯔가무시 항체가를 조사한 자료가 있습니까?
+
+\n○ 2007∼2009년도에 화성시, 예산군, 합천군, 태백시의 주민을 대상으로 항체가 조사를 한 결과가 있습니다. 환자다발생지역(화성, 예산, 합천)에서 쯔쯔가무증 항체가 조사결과 IgG 1:16 미만은 63%, IgG 1:256 이상은 6%이었으며, 환자 저발생지역(태백)에서는 IgG 1:16미만은 98.9%, IgG 1:256 이상은 0.2%로 나타나 다발생지역에서는 증상이 없는 감염/노출자가 더 많은 것으로 생각됩니다.
+
+\n\nQ9. 한번 감염된 사람이 또 감염될 수 있나요?
+
+\n○ 쯔쯔가무시증에서 회복된 환자는 동일한 혈청형에는 일정기간 면역력을 갖게 되나, 다른 혈청형의 균에 감염 되었을 땐 재감염될 가능성이 계속 존재합니다.
+
+\n\nQ10. 쯔쯔가무시증 의사환자도 역학조사를 수행해야 하나요?
+
+\n○ 네. 그렇습니다. 쯔쯔가무시증은 확진과 의사환자 모두를 신고대상으로 하고 있기 때문에 의사환자도 역학조사 대상입니다. \n"
+            />
+        <TextView
+            android:id="@+id/disease_mites_tail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/disease_writer"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:text="출처: 질병관리청                               최종 수정일: 2020.09.10"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="50px"
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

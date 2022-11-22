@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".Disease_Mumps_Activity">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#C8C8C8"
+
+        >
+
+        <TextView
+            android:id="@+id/disease_mumps_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/disease_title"
+            android:layout_marginTop="30px"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="유행성 이하선염(볼거리) 바이러스"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/disease_mumps_title2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/disease_premier"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:textSize="14sp"
+            android:text="유행성 이하선염(볼거리) 감염병 정보에 애해 자세히 알아보자"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/disease_mumps_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:padding="20px"
+            android:background="#FFFFFF"
+            android:drawableLeft="@drawable/content_mumps"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/disease_mumps_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="14sp"
+            android:text="\n\n정의
+
+
+\n○ 유행성이하선염 바이러스(Mumps virus) 감염에 의하여 나타나는 이하선 부종이 특징적인 급성 발열성 질환
+
+
+
+
+
+\n\n역학
+
+
+\n○ 주로 감염자의 호흡기 분비물(비말)로 사람간 전파가 이루어짐
+
+
+\n○ 잠복기: 평균 14~18일(최대 25일)
+
+
+\n○ 전염기: 증상 발현 3일 전부터 5일 후까지
+
+
+
+
+
+\n\n치료
+
+
+\n○ 보존적 치료
+
+
+
+
+
+\n\n예방
+
+
+\n○ 예방접종
+
+
+\n\n[접종대상 및 시기]
+
+
+\n금기가 아닌 모든 소아
+
+
+\n◦ 1차 접종: 생후 12~15개월
+
+
+\n◦ 2차 접종: 만 4~6세
+
+
+\n\n[접종용량 및 방법]
+
+
+\n◦ 상완 외측면 0.5 mL 피하주사
+
+
+
+
+
+\n\n진단 신고 기준
+
+
+\n▣ 신고범위 : 환자, 의사환자
+
+
+\n\n▣ 신고를 위한 진단기준
+
+
+  \n○ 환자 : 유행성이하선염에 부합되는 임상증상을 나타내거나 역학적 연관성이 있으면서 진단을 위한 검사기준에 따라 감염병병원체 감염이 확인된 사람
+
+
+  \n○ 의사환자 : 임상증상 및 역학적 연관성을 감안하여 유행성이하선염이 의심되나 진단을 위한 검사기준에 부합하는 검사결과가 없는 사람
+
+
+\n\n▣ 임상증상
+
+
+  \n○ 전구기에 근육통, 식욕부진, 권태감, 두통, 미열 등 비특이적인 증상이 나타남
+
+
+  \n○ 2일 이상 지속되는 침샘의 부종과 통증이 특징적임
+
+
+  \n○ 이하선염이 가장 흔하여 한쪽 또는 양쪽을 침범할 수 있고, 하나의 침샘 혹은 여러 침샘을 침범할 수 있음
+
+
+  \n○ 통상 1일 내지 3일째 가장 심한 증상을 나타내다가 3일 내지 7일 이내에 호전됨
+
+
+\n\n▣ 진단을 위한 검사기준
+
+
+  \n○ 검체(볼점막·인후·비인두도찰물, 혈액, 소변, 뇌척수액, 타액)에서 Mumps virus 분리
+
+
+  \n○ 회복기 혈청의 항체가가 급성기에 비하여 4배 이상 증가
+
+
+  \n○ 검체(혈액)에서 특이 IgM 항체 검출
+
+
+\n○ 검체(볼점막·인후·비인두도찰물, 혈액, 소변, 뇌척수액, 타액)에서 특이 유전자 검출
+
+
+\n\n▣ 신고시기 : 지체없이 신고
+
+
+\n\n▣ 신고방법 : 감염병 발생 신고서를 작성하여 관할 보건소로 팩스 또는 웹(http://is.cdc.go.kr)의 방법으로 신고
+
+
+ \n* 사망(검안) 신고는 감염병환자등 사망(검안) 신고서, 병원체검사결과 신고는 병원체 검사결과 신고서를 작성하여 추가 신고
+
+
+\n▣ 질병관리청 담당부서 : 감염병관리과
+
+
+
+
+
+\n\nFAQ
+
+
+\nQ1. 유행성이하선염(볼거리)이 학교 등에서 발생할 경우, 유행기준과 격리기간은 어떻게 되나요?
+
+
+\n○ 학교, 유치원, 영유아 보육시설 등에서의 유행은 3주 이내 1개 학급에서 유행성이하선염 (의사)환자가 해당 학급 전체 인원의 5% 이상 발생한 경우 유행으로 간주하고 있습니다(단, 한 개 학급이 20명 미만인 경우 최소 2명 이상 발생 시 실시). 환자가 발생하면 이하선염 발현(D-day) 후 5일(D+5)까지 격리하도록 합니다.
+
+
+\n\nQ2. 유행성이하선염을 앓은 지 몇 년이 지나 귀밑이 부었는데 어떻게 해야 하나요?
+
+
+\n○ 유행성이하선염은 이하선염의 흔한 원인이기는 하지만, 다른 원인에 의해 이하선염이 발생할 가능성도 있습니다. 이하선염의 다른 원인으로는 거대세포 바이러스, 파라인플루엔자 바이러스, 인플루엔자 바이러스, 콕사키 바이러스와 기타 장바이러스, 인간면역결핍바이러스, 황색포도알구균, 비결핵성 마이코박테리움 등에 의한 감염이나 침샘관 결석, 녹말 섭취, 약물작용(페닐부타존, 티오우라실, 요오드), 대사질환(당뇨, 간경화, 영양결핍) 등이 있습니다. 따라서 우선적으로 의사와 상의하도록 합니다.
+
+
+\n\nQ3. 고등학생인데 현재까지 유행성이하선염 접종을 한번도 하지 않았거나 2회접종을 완료하지 않은 경우 유행성이하선염(볼거리) 접종을 하는 것이 좋은가요?
+
+
+\n○ 과거에 한 번도 MMR 접종을 하지 않은 경우, 유행성이하선염 뿐 아니라 홍역과 풍진을 예방하기 위하여 MMR 2회접종을 완료하도록 권장하고 있습니다. \n"
+            />
+        <TextView
+            android:id="@+id/disease_mumps_tail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/disease_writer"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:text="출처: 질병관리청                               최종 수정일: 2020.09.10"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="50px"
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

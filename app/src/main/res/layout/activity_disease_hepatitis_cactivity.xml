@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".Disease_Hepatitis_C_Activity">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#C8C8C8"
+
+        >
+
+        <TextView
+            android:id="@+id/disease_hepatitis_c_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/disease_title"
+            android:layout_marginTop="30px"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="C형 간염 바이러스"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/disease_hepatitis_c_title2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/disease_premier"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:textSize="14sp"
+            android:text="C형 간염 감염병 정보에 애해 자세히 알아보자"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/disease_hepatitis_c_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:padding="20px"
+            android:background="#FFFFFF"
+            android:drawableLeft="@drawable/content_hepatitis_c"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/disease_hepatitis_c_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="14sp"
+            android:text="\n정의
+
+
+\n○ C형간염 바이러스(Hepatitis C virus, HCV) 감염에 의한 급· 만성 간질환
+
+
+
+
+
+\n\n병원체 특징
+
+
+\n○ Flaviviridae 과에 속하는 RNA 바이러스
+
+
+\n○ 1~6까지 6개의 유전자형이 있으며 아형은 70개 이상
+
+
+
+
+
+\n\n감염원
+
+
+\n○ HCV에 오염된 혈액이나 기구 등
+
+
+
+
+
+\n\n전파경로
+
+
+\n○ 주사기 공동 사용, 수혈, 혈액투석, 성접촉, 모자간 수직 감염 등 혈액매개 전파
+
+
+\n○ 일상생활에서 사람 간 전파 가능성은 극히 낮음
+
+
+
+
+
+\n\n잠복기
+
+
+\n○ 2주-6개월(평균 6-10주)
+
+
+
+
+
+\n\n치료
+
+
+\n○ 급성간염 : 안정, 고단백 식이요법
+
+
+\n○ 만성간염 : 안정, 식이요법, 항바이러스제 치료
+
+
+\n○ 유전자형에 따라 사용하는 치료제가 달라짐
+
+
+\n○ 효과적인 치료제 도입으로 치료율 향상(70~90%)
+
+
+\n○ 페그인터페론(주사제), 리바비린 병합요법
+
+
+\n○ 경구용 신약(DAA, direct acting antivirals)
+
+
+\n⊙ ledipasvir/sofosbuvir
+
+
+\n⊙ sofosbuvir
+
+
+\n⊙ daclatavir
+
+
+\n⊙ asunaprevir
+
+
+\n⊙ ombitasvir/paritaprevir/ritonavir
+
+
+\n⊙ dasabuvir
+
+
+\n⊙ grazoprevir/elbasvir
+
+
+\n⊙ sofosbuvir/velpatasvir
+
+
+\n※ 2017월 2월 현재 국내외에서 사용중인 대표적인 약물의 예를 언급한 것으로 임상시험 결과 및 가이드라인 변경에 따라 약물이 추가 혹은 변경될 수 있음.
+
+
+\n※ 미국에서는 페그인터페론(주사제), 리바비린 병합요법을 낮은 치료 성공률과 부작용으로 더 이상 사용하지 않도록 권고(2014)
+
+
+
+
+
+\n\n환자 관리
+
+
+\n○ 환자의 별도 격리 불필요
+
+
+\n○ 혈액 및 체액 노출 예방을 위한 감염예방수칙 준수
+
+
+\n\n진단 신고 기준
+
+
+\n▣ 신고범위 : 환자, 병원체보유자
+
+
+\n\n▣ 신고를 위한 진단기준
+
+
+  \n○ 환자 : C형간염에 부합되는 임상증상을 나타내면서 진단을 위한 검사기준에 따라 감염병병원체 감염이 확인된 사람
+
+
+  \n○ 병원체보유자 : 임상증상은 없으나 진단을 위한 검사기준에 따라 감염병병원체 감염이 확인된 사람
+
+
+\n\n▣ 임상증상
+
+
+  \n○ 급성 C형 간염
+
+
+    \n- 초기 감염 후 약 70∼80%의 환자에서 무증상
+
+
+    \n- 서서히 시작되는 감기 몸살 증세, 전신 권태감, 오심, 구역질, 식욕부진, 우상복부 불쾌감 등의 증상이 나타남
+
+
+  \n○ 만성 C형 간염
+
+
+    \n- 대부분의 환자(약 60~80%)에서 무증상
+
+
+    \n- 만성 피로감, 간부전이나 문맥압 항진증 등의 간경변증 발생
+
+
+\n\n▣ 진단을 위한 검사기준
+
+
+  \n○ 검체에서 HCV 특이 유전자(RNA) 검출
+
+
+\n\n▣ 신고시기 : 24시간 이내 신고
+
+
+\n▣ 신고방법 : 감염병 발생 신고서를 작성하여 관할 보건소로 팩스 또는 웹(http://is.cdc.go.kr)의 방법으로 신고
+
+
+ \n* 사망(검안) 신고는 감염병환자등 사망(검안) 신고서, 병원체검사결과 신고는 병원체 검사결과 신고서를 작성하여 추가 신고
+
+
+\n▣ 질병관리청 담당부서 : 감염병관리과
+
+
+
+
+
+\n\nFAQ
+
+
+\nQ1. C형간염은 무엇인가요?
+
+
+\n○ C형간염은 C형간염 바이러스에 감염되어 간에 염증을 유발하는 질병입니다. B형간염과 비교 시 만성간염으로 진행하는 비율이 높은 것으로 알려져 있으며 적절하게 치료하지 않는 경우 간경변증 또는 간세포암으로 진행합니다.
+
+
+\n\nQ2. C형간염은 어떻게 전파되나요?
+
+
+\n○ 혈액이나 체액에 의하여 전파되므로 주사기를 재사용하거나 C형간염 감염자의 혈액을 수혈받거나 장기를 이식한 경우에도 전파됩니다. C형간염 감염자인 산모가 아이를 낳을 때 수직감염 되기도 하며 성접촉에 의한 전파, 또는 문신이나 피어싱 등에 의해서도 전파가 가능한 것으로 알려져 있습니다.
+
+
+\n\nQ3. C형간염 환자와 같이 생활해도 괜찮나요?
+
+
+\n○ 식사, 포옹, 손잡기 등 일상적인 접촉이나 기침 등으로 C형간염이 전염되지 않습니다.
+
+
+\n\nQ4. C형간염은 치료가 되나요?
+
+
+\n○ 과거에는 치료가 어려운 질병 중 하나였으나 최근 신약의 개발로 치료성공률이 90% 이상까지 높아졌습니다. 특히 우리나라에 비교적 흔한 것으로 알려진 1b, 2a 유전자형의 경우 치료성공률이 높은 것으로 알려져 있습니다.
+
+
+\n\nQ5. C형간염의 증상은 무엇입니까?
+
+
+\n○ 급성 C형간염의 경우 70~80%에서 증상이 나타나지 않으며, 증상은 경증에서 중증까지 다양하게 나타납니다. 주요 증상은 다음과 같습니다. 발열, 피로감, 식욕저하, 어두운 소변, 복통, 구역, 구토, 관절통, 황달 등
+
+
+\n\nQ6. 증상이 없는 C형간염 감염자도 다른 사람에게 전염시킬 수 있습니까?
+
+
+\n○ 네, 그렇습니다.
+
+
+\n\nQ7. C형간염 바이러스가 인체이외 외부에서도 살 수 있나요?
+
+
+\n○ 상온에서 최대 3주까지 생존 가능합니다.
+
+
+\n\nQ8. 감염되면 증상은 얼마만에 나타나나요?
+
+
+\n○ 잠복기는 2주-6개월이며, 평균적으로 6-10주 정도 됩니다. 급성간염 시 70~80% 정도는 증상이 나타나지 않습니다.
+
+
+\n\nQ9. C형간염에 감염되면 간기능검사에서 확인되나요?
+
+
+\n○ 그렇지 않습니다. 많은 경우 C형간염에 감염되어도 간기능 검사가 정상으로 나올 수 있습니다. C형간염에 감염되었다면 6-12개월 주기로 간기능 검사를 정기적으로 받는 것이 좋으며 의료진과 상담하기 바랍니다.
+
+
+\n\nQ10. C형간염은 백신이 있습니까?
+
+
+\n○ B형간염과 달리 C형간염은 백신이 없습니다. \n"
+            />
+        <TextView
+            android:id="@+id/disease_hepatitis_c_tail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/disease_writer"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:text="출처: 질병관리청                               최종 수정일: 2022.06.20"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="50px"
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".Disease_Hepatitis_B_Activity">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#C8C8C8"
+
+        >
+
+        <TextView
+            android:id="@+id/disease_hepatitis_b_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/disease_title"
+            android:layout_marginTop="30px"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="B형 간염 바이러스"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/disease_hepatitis_b_title2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/disease_premier"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:textSize="14sp"
+            android:text="B형 간염 감염병 정보에 애해 자세히 알아보자"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/disease_hepatitis_b_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:padding="20px"
+            android:background="#FFFFFF"
+            android:drawableLeft="@drawable/content_hepatitis_b"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/disease_hepatitis_b_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="14sp"
+            android:text="\n정의
+
+
+\n○ B형간염 바이러스(Hepatitis B virus) 감염에 의한 급성 질환
+
+
+
+
+
+\n\n역학
+
+
+\n○ 전파경로
+
+
+\n⊙ 산모에서 신생아로의 주산기감염
+
+
+\n⊙ B형간염 바이러스 전염력을 가진 자와 성적 접촉
+
+
+\n⊙ 감염된 혈액을 수혈 받았을 때
+
+
+\n⊙ 사용 중 상처를 일으킬 수 있는 오염된 도구(주사바늘, 면도기 등)
+
+
+\n⊙ B형간염 바이러스 보유자의 체액이 묻은 바늘이나 칼에 상처를 입었을 경우
+
+
+\n○ 잠복기 : 60~150일(평균 90일)
+
+
+\n○ 전염기 : B형간염 표면항원 양성인 경우 전파 가능
+
+
+
+
+
+\n\n치료
+
+
+\n○ (급성간염) 보존적 치료
+
+
+
+
+
+\n\n예방
+
+
+\n○ 예방접종
+\n[접종대상 및 시기]
+
+
+\n모든 신생아 및 영유아, 과거 B형간염의 감염 증거와 백신 접종력이 없는 소아청소년 및 성인
+
+
+\n1) 모든 신생아(출생 체중 2.0 kg 이상은 ‘예방접종대상 감염병의 역학과 관리 지침’ 참조)
+
+
+\n◦ 산모가 HBsAg 양성인 경우
+
+
+\n- 출생 직후(12시간 이내) B형간염 면역글로불린(HBIG, 0.5 mL)과 함께 부위를 달리하여 B형간염 백신을 접종. 2, 3차 백신은 생후 1, 6개월에 접종
+
+
+\n◦ 산모가 HBsAg 음성인 경우
+
+
+\n- 출생 24시간 이내에 1차 접종. 2, 3차 백신은 생후 1, 6개월에 접종
+
+
+\n◦ 산모의 HBsAg 상태를 알지 못하는 경우
+
+
+\n- 출생 직후(12시간 이내) 백신을 접종. 산모가 HBsAg 양성으로 판명되면 HBIG을 가능한 빨리(늦어도 7일 이내) 주사. 2, 3차 백신은 생후 1, 6개월에 접종
+
+
+\n2) 그 외의 연령
+
+
+\n◦ 0, 1, 6개월 일정으로 3회 접종
+
+
+
+
+
+\n\n[접종용량]
+
+
+\n◦ 10세 이하: 0.5 mL (HBsAg 10 μg) 근육주사
+
+
+\n◦ 11세 이상: 1.0 mL (HBsAg 20 μg) 근육주사
+
+
+\n\n[접종방법]
+
+
+\n◦ 영유아는 대퇴부 전외측, 소아나 성인은 삼각근 부위에 근육주사
+
+
+\n◦ 엉덩이 근육은 백신 효과가 떨어지므로 접종 부위로 사용하지 말아야 함
+
+
+
+
+
+\n\n진단 신고 기준
+
+
+\n\n▣ 신고범위 : 환자
+
+
+\n\n▣ 신고를 위한 진단기준
+
+
+  \n○ 환자 : 급성 B형간염에 부합되는 임상증상을 나타내면서 진단을 위한 검사기준에 따라 감염병병원체 감염이 확인된 사람
+
+
+\n\n▣ 임상증상
+
+
+  \n○ 급성으로 황달, 흑뇨, 식욕부진, 오심, 근육통, 심한 피로, 우상복부 압통 등이 나타나나 무증상 감염도 있을 수 있음
+
+
+  \n○ 일반적으로 6개월 이내에 임상증상 및 간기능 검사 상 이상이 회복되고 바이러스가 제거되지만 이상이 6개월 이상 지속되고 HBsAg 양성을 보이는 경우 만성간염으로 이행함
+
+
+\n\n▣ 진단을 위한 검사기준
+
+
+  \n○ HBsAg이 양성이고 IgM anti-HBc가 양성인 자(다만 6개월 전에 B형 간염 바이러스 감염을 진단받았던 자는 제외함)
+
+
+  \n○ HBsAg이 음성이고 IgM anti-HBc가 양성인 자
+
+
+\n\n▣ 신고시기 : 지체없이 신고
+
+
+\n\n▣ 신고방법 : 감염병 발생 신고서를 작성하여 관할 보건소로 팩스 또는 웹(http://is.cdc.go.kr)의 방법으로 신고
+
+
+ \n* 사망(검안) 신고는 감염병환자등 사망(검안) 신고서, 병원체검사결과 신고는 병원체 검사결과 신고서를 작성하여 추가 신고
+
+
+\n\n▣ 질병관리청 담당부서 : 감염병관리과
+
+
+
+
+
+\n\nFAQ
+
+
+\nQ1. 건강검진 시 B형간염 항체가 양성이었는데, 재검사에서 음성으로 나올 수 있나요?
+
+
+\n○ 항체가 양성이었다가 음성으로 될 수 있습니다. 일반적으로 B형간염 백신 접종 후 항체가 형성되었다 하더라도 시간이 흐를수록 항체가 감소합니다. 따라서 이전에 항체가 양성이었다 하더라도 시간이 흐른 뒤에 음성이 나올 수 있습니다. 이런 경우는 항체가 음성이라도 기억면역에 의해 HBV 감염 시 항체상승이 유도되므로 B형간염 백신을 추가로 접종할 필요는 없습니다.
+
+
+\n\nQ2. 임신 중 HBsAg 양성반응이 나왔습니다. 산부인과에서는 전염되지 않는다고 했습니다. 아기에게는 출산 즉시 B형간염 백신과 면역글로불린을 접종했는데 엄마인 저는 괜찮은가요? 양성반응 자체가 간염에 걸렸다는 것인지 아니면 치료를 받아야 하는지 남편이나 다른 사람에게는 전염되지는 않는지 걱정이 되는군요.
+
+
+\n○ 어머니의 경우는 B형간염 만성 감염자일 가능성이 높으나 정확한 상태를 파악하기 위해 정밀 혈액검사가 필요합니다. HBsAg 상태만 가지고는 치료 여부를 결정할 수 없습니다. 추후 혈액검사에서 간기능이 정상이라면 치료가 필요 없는 보유자 상태이고, 간기능에 이상이 있다면 만성 간염으로 치료가 필요할 수도 있습니다. 보유자 상태이더라도 만성 간염으로 발전할 수 있으므로 아무런 증상이 없더라도 최소 1년에 한 번씩 주기적으로 혈액검사를 받아야 합니다. B형간염의 전파경로는 항체가 없는 사람이 B형간염 바이러스를 가진 사람과 성접촉을 하거나 주사기를 공유하는 경우 등으로 주로 혈액을 통해 전파됩니다. 따라서 일상적인 접촉을 하는 타인에게는 영향을 미치지 않습니다. 다만 배우자나 배우자가 될 사람이 B형간염 백신을 접종하여 항체가 생긴 경우에는 전염에 대해 걱정할 필요가 없지만 B형간염 백신을 접종하지 않았다면 항원·항체검사를 실시하고, 항체가 없다면 B형간염 백신을 접종받아야 합니다. 아이의 경우 출생 시 B형간염 면역글로불린 투여와 B형간염 백신 3회 접종으로 주산기 감염의 97% 이상을 예방할 수 있습니다. B형간염 주산기감염 예방사업은 아이에 대한 예방조치 비용과 검사비용을 국가에서 전액 지원하는 사업으로 가까운 보건소로 문의하시기 바랍니다.
+
+
+\n\nQ3. B형간염 주산기감염 예방사업의 무료 예방접종에 관하여 알고 싶습니다.
+
+\n○ B형간염 주산기감염 예방사업은 HBsAg 양성 또는 HBeAg 양성 산모로부터 출생한 신생아를 대상으로 B형간염 주산기감염을 예방하기 위해 B형간염 면역글로불린과 3차에 걸친 백신접종 비용, 접종 후 항원·항체검사 비용 및 필요시 재접종 및 재검사 비용을 무료로 지원해주는 국가 예방사업입니다. \n"
+            />
+        <TextView
+            android:id="@+id/disease_hepatitis_b_tail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/disease_writer"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:text="출처: 질병관리청                               최종 수정일: 2021.09.01"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="50px"
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

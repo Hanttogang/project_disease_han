@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".Disease_Hepatitis_A_Activity">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#C8C8C8"
+
+        >
+
+        <TextView
+            android:id="@+id/disease_hepatitis_a_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/disease_title"
+            android:layout_marginTop="30px"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="A형 간염 바이러스"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/disease_hepatitis_a_title2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/disease_premier"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:textSize="14sp"
+            android:text="A형 간염 감염병 정보에 애해 자세히 알아보자"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/disease_hepatitis_a_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:padding="20px"
+            android:background="#FFFFFF"
+            android:drawableLeft="@drawable/content_hepatitis_a"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/disease_hepatitis_a_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="14sp"
+            android:text="\n정 의
+
+
+\n○ A형간염 바이러스(Hepatitis A virus)감염에 의한 급성 간염 질환
+
+
+
+
+
+\n\n질병 분류
+
+
+\n○ 법정감염병 : 제2급
+
+
+\n○ 질병코드 : ICD-10 B15
+
+
+
+
+
+\n\n병원체
+
+
+\n○ Hepatitis A virus
+
+
+\n⊙ Picornaviridae 과의 Hepatovirus 속 RNA virus
+
+
+\n⊙ 바이러스가 장관을 통과해 혈액으로 진입 후 간세포 안에서 증식하여 염증을 일으킴
+
+
+
+
+
+\n\n병원소
+
+
+\n○ 사람 (Ⅰ, Ⅱ, Ⅲ, Ⅶ 형), 침팬지, 원숭이류(Ⅳ, Ⅴ, Ⅵ 형)
+
+
+
+\n\n전파 경로
+
+
+\n○ ʻ분변-경구ʼ 경로로 직접 전파
+
+
+\n○ 환자의 분변에 오염된 물이나 음식물 섭취를 통한 간접 전파
+
+
+\n○ 주사기를 통한 감염(습관성 약물 중독자)나 혈액제제를 통한 감염
+
+
+\n○ 성접촉을 통한 감염
+
+
+
+
+
+\n\n잠복기
+
+
+\n○ 15∼50일(평균 28일)
+
+
+
+
+
+\n\n증 상
+
+
+\n○ 발열, 식욕감퇴, 구역 및 구토, 암갈색 소변, 권태감, 식욕부진, 복부 불쾌감, 황달 등
+
+
+\n○ 6세 미만 소아에서 대부분 무증상(70%)이고, 약 10%에서 황달이 발생하나, 연령이 높아질수록 70% 이상 황달이 동반되며 증상이 심해짐
+
+
+\n○ 수주∼수개월 후 대부분 회복하며, 만성간염으로 진행하지 않음
+
+
+
+
+\n\n치 료
+
+
+\n○ 대증 치료 : 안정, 고단백 식이요법
+
+
+\n○ 전격 간염 또는 구토로 인해 탈수된 환자는 입원치료 필요
+
+
+\n○ 전격성 간부전으로 진행시 간이식
+
+
+
+
+\n\n전염기간
+
+
+\n○ 증상 발현 2주 전부터 황달이 생긴 후 1주일까지
+
+
+
+\n\n치사율
+
+
+\n○ 0.1∼0.3%이나, 50세 이상에서 1.8%
+
+
+
+
+
+\n\n관 리
+
+
+\n환자 관리
+
+
+\n○ 증상 발생(황달 발생, 간수치 상승) 후 1주일간 의학적 판단에 따라 격리
+
+
+\n⊙ 설사가 멈추고, 황달 발생 후 7일까지 격리하고, 음식 취급, 보육, 환자 간호, 학교 출석, 보육시설 출석을 금지
+
+
+\n○ 무증상 감염인(병원체보유자) 관리 : 황달, 간수치 상승 등 증상이 없어 입원하지 않은 무증상 감염인의 경우 개인 위생관리를 철저히 하고, 보육교직원, 요양시설 종사자, 조리종사자, 의료종사자는 1회 대변 검사에서 음성 확인 후 직장 복귀
+
+
+\n\n접촉자 관리
+
+
+\n○ 관리 대상 : 일상접촉자, 성접촉자
+
+
+\n○ 발병 여부 관찰(마지막 노출 가능시점부터 50일까지 발병여부를 감시)
+
+
+\n○ 노출 후 예방으로 면역글로불린 투여 또는 A형간염 백신접종 시행
+
+
+
+
+
+\n\n예 방
+
+
+\n○ 일반적 예방
+
+
+\n⊙ 올바른 손 씻기의 생활화 : 흐르는 물에 비누로 30초 이상 손 씻기
+
+
+\n⊙ 안전한 음식 섭취 : 음식 익혀먹기, 물 끓여 마시기
+
+
+\n⊙ 위생적인 조리하기
+
+
+\n\n○ 예방접종
+
+
+\n⊙ 대상：12∼23개월의 모든 소아, A형간염에 대한 면역력이 없는 고위험군 소아청소년이나 성인, 환자의 밀접접촉자, 고위험군에 대해 접종
+
+
+\n⊙ 6∼12개월 간격으로 2회 근육 주사
+
+
+
+
+
+\n\n진단 신고 기준
+
+
+
+\n▣ 신고범위 : 환자, 의사환자, 병원체보유자
+
+
+
+\n▣ 신고를 위한 진단기준
+
+\n○ 환자 : A형간염에 부합되는 임상증상을 나타내면서, 진단을 위한 검사기준에 따라 감염병병원체 감염이 확인된 사람
+
+\n○ 의사환자 : 임상증상 및 역학적 연관성*을 감안하여 A형간염이 의심되나 진단을 위한 검사기준에 부합하는 검사 결과가 없는 사람
+
+   \n* 역학적 연관성 : 환자의 증상발생 전 15∼50일 동안 감염력이 있는** A형간염 환자와 일상접촉·성접촉 경력이 있는 경우
+
+   \n** 환자의 증상 발생 2주 전 ∼ 증상발생 1주 후
+
+\n○ 병원체보유자 : 임상증상은 없으나 진단을 위한 검사기준에 따라 감염병병원체 감염이 확인된 사람
+
+
+
+\n▣ 임상증상
+
+\n○ 발열, 두통, 권태감, 식욕부진, 오심, 구토, 복통, 설사 등의 증상이 있으면서 황달 또는 간기능 수치(AST 또는 ALT) 상승과 같은 소견을 보임
+
+
+
+\n▣ 진단을 위한 검사기준
+
+\n○ 검체(혈액)에서 특이 IgM 항체 검출
+
+\n○ 검체(혈액, 대변, 직장도말)에서 특이 유전자 검출
+
+
+
+\n▣ 신고시기 : 24시간 이내 신고
+
+\n▣ 신고방법 : 신고서를 작성하여 관할 보건소로 웹(http://is.cdc.go.kr) 또는 팩스의 방법으로 신고
+
+\n▣ 질병관리청 담당부서 : 감염병관리과
+
+
+
+\n\nFAQ
+
+
+\nQ1. A형간염은 증상이 무엇인가요?
+
+
+\n○ A형간염은 A형간염 바이러스에 노출 된 후 15일∼50일, 평균 28일 후 증상이 발생하게 됩니다. 보통 심한 피로감, 식욕부진, 메스꺼움, 복통 등의 증상이 나타나고, 황달이 동반되기도 하며, 몇 주에서 몇 개월까지 증상이 지속될 수 있습니다. 소아는 감염되더라도 증상이 없거나, 경증으로 앓고 지나가는 경우가 많으나, 성인의 경우 70%이상 증상이 나타나고, 심한 경우 전격성 간염으로 사망할 수 있습니다.
+
+
+\n\nQ2. A형간염은 어떻게 전파되나요?
+
+
+\n○ A형간염은 감염된 환자의 분변에 오염된 손을 통해 다른 사람에게 접촉하여 전파되거나, 바이러스에 오염된 물 또는 음식을 섭취하여 감염될 수 있습니다. 또한 감염된 환자의 혈액을 수혈 받거나, 혈액 노출되었을 때 혈액을 매개한 감염도 가능합니다.
+
+
+\n\nQ3. A형간염은 어떻게 예방하나요?
+
+
+\n○ A형간염 예방을 위해서는 손 씻기, 익혀먹기, 물 끓여 마시기 등 개인위생을 철저하게 준수해야 합니다. 용변 후, 음식 취급 전, 환자를 돌보거나 아이를 돌보기 전 비누를 사용하여 30초 이상 흐르는 물에 손을 씻어야 합니다. 또 다른 예방법으로는 예방접종이 있는데, A형간염을 앓은 적이 없거나, A형간염 면역이 없는 경우 6∼12개월 간격으로 2회 접종하여 면역을 획득할 수 있습니다.
+
+
+\n\nQ4. A형간염 예방접종 전이나 후에 항체 검사를 해야 하나요?
+
+
+\n○ 백신 접종력이나 A형간염의 이환력이 없어 백신을 접종하기로 결정했다면, 만 40세 미만에서는 검사 없이 백신을 접종하고, 40세 이상이라면 백신 투여 전에 검사를 시행하여 항체가 없는 경우에 한하여 접종할 것을 권장합니다. 현재 사용하고 있는 백신들의 방어항체 양성률은 2차 접종 후에는 거의 100%에 달하기 때문에 접종 후 항체 검사는 필요 없습니다. \n"
+            />
+        <TextView
+            android:id="@+id/disease_hepatitis_a_tail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/disease_writer"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:text="출처: 질병관리청                               최종 수정일: 2022.04.21"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="50px"
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

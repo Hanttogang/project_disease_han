@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".Disease_Covid19_ActivityDiseaseList">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#C8C8C8"
+
+        >
+
+        <TextView
+            android:id="@+id/disease_covid19_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/disease_title"
+            android:layout_marginTop="30px"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="코로나19 바이러스"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/disease_covid19_title2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/disease_premier"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:textSize="14sp"
+            android:text="코로나19 감염병 정보에 애해 자세히 알아보자"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/disease_covid19_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:padding="20px"
+            android:background="#FFFFFF"
+            android:drawableLeft="@drawable/content_covid19"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/disease_covid19_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="14sp"
+            android:text="\n정의
+
+
+\n\n○ 우리나라에서 처음으로 발견된 감염병 또는 병명을 정확히 알 수 없으나 새로 발생한 감염성증후군으로서 제1군감염병 내지 제4군감염병 또는 지정감염병에 속하지 않으며 입원치료가 필요할 정도로 병상이 중대하거나 급속한 전파, 또는 확산이 우려되어 환자격리 및 역학조사와 방역대책 등의 조치가 필요한 질환
+
+
+
+
+
+\n\n진단 신고 기준
+
+
+\n\n▣ 신고범위 : 환자, 병원체보유자
+
+
+\n\n▣ 신고를 위한 진단기준
+
+
+\n⊙ 원인 병원체가 전세계적으로 이미 알려져 있으나 국내에서는 아직 발생사실이 보고되지 않은 감염병 환자, 의사환자
+
+
+\n⊙ 신종 병원체에 의한 감염병이 의심되는 상황으로 다음과 같은 소견을 보이는 자
+
+
+\n- 급성출혈열
+
+
+\n- 급성호흡기증후군
+
+
+\n- 급성설사증후군
+
+
+\n- 급성황달
+
+
+\n- 급성신경증후군
+
+
+\n- 그 외 감염으로 추정되는 증상
+
+
+\n※ 신종감염병 또는 신종감염병이 의심되는 증후군을 발견한 의료인은 보건소에 지체 없이 신고해야 하고, 신고 후에는 질병관리청과 시/도 보건(위생)과 및 시/군/구 보건소 등이 공동으로 역학조사를 수행하게 됩니다.
+
+
+\n\n▣ 신고시기 : 지체없이 신고
+
+
+\n\n▣ 신고방법 : 감염병 발생 신고서를 작성하여 관할 보건소로 팩스 또는 웹(http://is.cdc.go.kr)의 방법으로 신고
+
+
+ \n* 사망(검안) 신고는 감염병환자등 사망(검안) 신고서, 병원체검사결과 신고는 병원체 검사결과 신고서를 작성하여 추가 신고
+
+
+\n\n▣ 질병관리청 담당부서 : 위기대응총괄과 \n"
+            />
+        <TextView
+            android:id="@+id/disease_covid19_tail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/disease_writer"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:text="출처: 질병관리청                               최종 수정일: 2022.04.26"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="50px"
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".Disease_Chikenpox_Activity">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#C8C8C8"
+        >
+
+        <TextView
+            android:id="@+id/disease_chickenpox_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/disease_title"
+            android:layout_marginTop="30px"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="수두 바이러스"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/disease_chickenpox_title2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/disease_premier"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:textSize="14sp"
+            android:text="수두 감염병 정보에 애해 자세히 알아보자"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/disease_chickenpox_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:padding="20px"
+            android:background="#FFFFFF"
+            android:drawableLeft="@drawable/content_chickenpox"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/disease_chickenpox_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="14sp"
+            android:text="\n정의
+
+
+\n○ 수두 바이러스(Varicella Zoster Virus)에 의한 급성 발진성 감염질환
+
+
+
+
+
+\n\n역학
+
+
+\n○ 수포성 병변에 직접접촉, 호흡기 분비물의 공기전파를 통해 감염
+
+
+\n○ 잠복기 : 10~21일(평균 14~16일)
+
+
+\n○ 전염기: 발진 1~2일 전부터 모든 병변이 가피로 앉을 때까지
+
+
+
+
+
+\n\n치료
+
+
+\n○ 보존적 치료
+
+
+
+
+
+\n\n예방
+
+
+\n○ 예방접종
+\n[접종대상 및 시기]
+
+
+\n◦ 정기접종: 금기사항이 없는 생후 12~15개월의 모든 소아
+
+
+\n◦ 따라잡기 접종: 수두에 대한 면역력이 없는 소아로서 정기접종 시기(생후 12~15개월)에 접종을 받지 못한 소아
+
+
+\n- 만 13세 미만: 1회 접종
+
+
+\n- 만 13세 이상: 4~8주 간격으로 2회 접종
+
+
+\n[접종용량 및 방법]
+
+
+\n◦ 0.5 mL 상완 외측면에 피하주사
+
+
+
+
+
+\n\n진단 신고 기준
+
+
+\n▣ 신고범위 : 환자, 의사환자
+
+
+\n▣ 신고를 위한 진단기준
+
+
+  \n○ 환자 : 수두에 부합되는 임상증상을 나타내거나 역학적 연관성이 있으면서 진단을 위한 검사기준에 따라 감염병병원체 감염이 확인된 사람
+
+
+  \n○ 의사환자 : 임상증상 및 역학적 연관성을 감안하여 수두가 의심되나 진단을 위한 검사기준에 부합하는 검사결과가 없는 사람
+
+
+\n\n▣ 임상증상
+
+
+  \n○ 선천성 수두 : 임신 20주 이내에 수두에 감염된 어머니에서 태어나는 신생아는 선천성 수두 증후군이 발생할 수 있음. 저체중, 사지 형성 저하, 피부 가피, 부분적 근육 위축, 뇌염, 뇌피질 위축, 맥락망막염과 소두증 등 다양한 이상소견이 나타남
+
+
+  \n○ 출생 후 발생한 수두
+
+
+    \n- 전구기 : 전구기는 발진 발생 1일 내지 2일 전에 발생할 수 있으며 권태감과 미열이 나타남. 소아는 발진이 첫 번째 증후로 나타나는 경우가 많음
+
+
+    \n- 발진기 : 발진은 주로 몸통, 두피, 얼굴에 발생하며 소양감을 동반하고, 24시간 내에 반점(macules), 구진(papules), 수포(vesicles), 농포(pustules), 가피의 순으로 빠르게 진행되며 동시에 여러 모양의 발진이 관찰됨
+
+
+    \n- 회복기 : 모든 병변에 가피가 형성되며 회복됨
+
+
+\n\n▣ 진단을 위한 검사기준
+
+
+  \n○ 검체(수포액, 가피, 비인두도찰물, 혈액, 뇌척수액)에서 Varicella Zoster virus 분리
+
+
+  \n○ 회복기 혈청의 항체가가 급성기에 비하여 4배 이상 증가
+
+
+  \n○ 검체(혈액)에서 특이 IgM 항체 검출
+
+
+  \n○ 검체(수포액, 가피, 비인두도찰물, 혈액, 뇌척수액)에서 특이 유전자 검출
+
+
+\n▣ 신고시기 : 지체없이 신고
+
+
+\n▣ 신고방법 : 감염병 발생 신고서를 작성하여 관할 보건소로 팩스 또는 웹(http://is.cdc.go.kr)의 방법으로 신고
+
+
+ \n* 사망(검안) 신고는 감염병환자등 사망(검안) 신고서, 병원체검사결과 신고는 병원체 검사결과 신고서를 작성하여 추가 신고
+
+
+\n▣ 질병관리청 담당부서 : 감염병관리과
+
+
+
+
+
+\n\n\nFAQ
+
+
+\n\nQ1. 수두를 앓고 있는 사람과 만났습니다. 수두는 어떻게 전파되며, 언제까지 증상이 나타나나요?
+
+
+\n○ 수두는 감염자의 기침과 재채기 시 나온 수두 바이러스가 공기를 통해서 또는 수포병변의 직접적인 접촉을 통해 전파됩니다. 노출 후 증상발현 까지의 기간은 10-21일로 대개 14-16일 이내에 증상이 나타납니다. 이전에 수두를 앓은 경우에는 이미 면역력이 있으므로 수두 환자와 접촉하더라도 다시 감염되지는 않습니다. 다만, 드물게는 면역이 저하되어 있는 경우에는 여러차례 앓을 수도 있습니다.
+
+
+\n\nQ2. 대상포진에 감염되면 수두 접종은 어떻게 해야 하나요?
+
+
+\n○ 대상포진은 이전에 수두에 감염된 후 회복되었다가, 면역력이 떨어지는 경우 신경절에 잠복해 있던 수두바이러스가 신경을 따라 통증과 가려움, 수포가 발생하는 경우로 대부분은 50세 이상에서 발생합니다. 대상포진을 앓았다는 것은 과거에 수두를 앓았다는 증거이기 때문에 수두 예방접종을 할 필요는 없습니다.
+\n"
+            />
+        <TextView
+            android:id="@+id/disease_chickenpox_tail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/disease_writer"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:text="출처: 질병관리청                               최종 수정일: 2020.09.10"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="50px"
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

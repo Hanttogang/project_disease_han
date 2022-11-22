@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".Disease_Influenza_ActivityDiseaseList">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#C8C8C8"
+
+        >
+
+        <TextView
+            android:id="@+id/disease_influenza_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/disease_title"
+            android:layout_marginTop="30px"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="인플루엔자(독감)"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/disease_influenza_title2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/disease_premier"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:textSize="14sp"
+            android:text="인플루엔자 감염병 정보에 애해 자세히 알아보자"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/disease_influenza_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:padding="20px"
+            android:background="#FFFFFF"
+            android:drawableLeft="@drawable/content_influenza"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/disease_influenza_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="14sp"
+
+            android:text="\n[인플루엔자]\n\n○ 개요
+\n◎ 인플루엔자는 매년 겨울철에 유행하여 건강인에서 업무상의 차질을 일으키고 노인, 만성질환자, 영유아, 임산부 등 고위험군에서 이환률 및 사망률의 증가를 초래해 막대한 사회·경제적 손실을 유발하는 질환
+
+
+
+\n\n○ 원인
+\n◎ 원인병원체: 인플루엔자 바이러스(Influenza virus A, B, C)
+\n◎ 감염경로: 비말매개감염으로 전파됨
+
+
+
+\n\n○ 증상
+\n◎ 잠복기: 1~4일(평균 2일)
+\n◎ 증상 시작 1일전부터 발병 후 5일까지 기침이나 재채기를 할 때 분비되는 호흡기 비말을 통해서 사람에서 사람으로 전파
+\n◎ 임상증상: 38°C 이상의 갑작스러운 발열, 두통, 근육통, 피로감 등의 전신증상과 기침, 인후통, 객담 등의 호흡기 증상을 보임
+
+\n\n○ 진단
+\n◎ 임상 및 역학적 진단
+\n◎ 진단을 위한 검사기준
+
+\n\n○ 검체 등에서 바이러스 분리
+\n\n○ 검체 등에서 바이러스 특이 유전자 검출
+\n\n○ 회복기 혈청의 특이 항체가 급성기에 비하여 4배 이상 증가 또는 인플루엔자 특이항체 확인
+
+\n\n○ 치료
+\n◎ 대증치료
+\n◎ 인플루엔자 특이 항바이러스제 투여: 고위험군에서 유용하게 사용될 수 있음
+
+\n\n○ 예방
+\n◎ 인플루엔자 백신
+
+\n\n○ 70~90%의 예방효과
+\n\n○ 노인: 독감 예방, 폐렴에 의한 입원 방지, 사망 예방
+\n\n○ 인플루엔자 우선 접종 대상자
+\n- 만성폐질환자, 만성심장질환자
+\n- 만성질환으로 사회복지시설 등 집단 시설에서 치료, 요양, 수용 중인 사람
+\n- 만성간질환자, 만성신질환자, 신경-근육 질환, 혈액-종양 질환, 당뇨환자, 면역저하자(항암제 등 약제에 의한 경우, HUIV 감염 등), 아스피린 복용 중인 6개월~18세 소아
+\n- 65세 이상의 노인
+\n- 의료인
+\n- 만성질환자, 임신부, 65세 이상 노인과 함께 거주하는 자
+\n- 0~59개월 유아와 함께 거주하거나 돌보는 경우
+\n- 임신부
+\n- 50세~64세 성인
+\n- 생후 6개월~59개월 소아
+
+\n\n○ 예방접종
+\n◎ 생후 6개월~만 8세 소아:1또는 2회 접종
+
+\n◎ 만9세 이상~성인: 1회 접종
+
+\n○ 예방적 화학요법
+
+\n◎ 대상
+
+항바이러스제의 노출 전 예방적 사용은 중증의 합병증이 우려되는 사람(장기 이식병동입원 환자, 심각한 면역 저하 환자, 신생아실 입원 중인 신생아 등)에서 백신 사용이 어렵거나 백신 효과를 기대할 수 없는 경우에 한하여 제한적으로 시행함
+
+항바이러스제의 노출 후 예방적 사용은 고위험군 노출자에 국한하여 사용함
+
+\n◎ 방법: 노출 전 예방적 항바이러스제는 유행기간 동안 복용, 노출 후 예방적 항바이러스제는 10일간 투여
+
+
+
+\n\n○ 신고기준
+
+\n◎ 신고범위: 환자, 의사환자
+
+\n◎ 신고시기: 7일 이내 신고(매주 화요일까지)
+
+\n◎ 신고를 위한 진단기준
+
+\n\n○ 환자: 인플루엔자에 부합되는 임상증상을 나타내면서 진단을 위한 검사기준에 따라 감염병병원체 감염이 확인된 사람
+
+\n\n○ 의사환자: 38°C 이상의 갑작스러운 발열과 더불어 기침 또는 인후통을 보이는 자
+
+
+
+\n\n○ 관련 정책 및 지원사업
+
+\n◎ 노인 인플루엔자 국가예방접종 지원사업
+
+\n◎ 어린이 국가예방접종 지원사업\n\n"
+            />
+        <TextView
+            android:id="@+id/disease_influenza_tail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/disease_writer"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+
+            android:text="출처: 질병관리청                               최종 수정일: 2022.09.27"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="50px"
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

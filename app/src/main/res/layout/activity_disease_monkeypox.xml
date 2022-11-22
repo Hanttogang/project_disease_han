@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".Disease_Monkeypox_Activity">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#C8C8C8"
+
+        >
+
+        <TextView
+            android:id="@+id/disease_monkeypox_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/disease_title"
+            android:layout_marginTop="30px"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="원숭이두창 바이러스"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/disease_monkeypox_title2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/disease_premier"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:textSize="14sp"
+            android:text="원숭이두창 감염병 정보에 애해 자세히 알아보자"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/disease_monkeypox_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:padding="20px"
+            android:background="#FFFFFF"
+            android:drawableLeft="@drawable/content_monkeypox"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/disease_monkeypox_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="14sp"
+            android:text="\n정의
+
+
+\n○ 원숭이두창 바이러스(Monkeypox virus) 감염에 의한 급성 발열,발진성 질환
+
+
+
+
+\n\n감염원
+
+
+\n○ 야생동물(원숭이, 다람쥐, 감비아 자이언트 쥐 등 설치류)
+
+
+
+
+\n\n전파경로
+
+
+\n○ 인수공통감염병으로 원숭이두창 바이러스에 감염된 동물, 감염된 사람, 또는 바이러스에 오염된 물질과 접촉할 경우 감염될 수 있으며, 수직감염 발생 가능
+  \n- (피부병변) 감염된 동물·사람의 혈액, 체액, 피부, 점막병변과의 직·간접 접촉
+  \n- (매개물) 감염환자의 체액, 병변이 묻은 매개체(침구류, 의복 등) 접촉을 통한 전파
+  \n- (비말) 코, 구강, 인두, 점막, 폐포에 있는 감염비말에 의한 사람 간 직접 전파
+  \n- (공기) 바이러스가 포함된 미세 에어로졸을 통한 공기전파가 가능하나 흔하지 않음
+
+
+
+\n\n주요증상
+
+
+\n○ 발병 초기 발열, 두통, 림프절병증, 요통, 근육통, 근무력증 등과 같은 증상이 나타나며 1-3일 후에 얼굴 중심으로 발진증상을 보이며 원심형으로 주로 팔·다리 등 신체 다른부위로 확산
+
+\n○ 원숭이두창 발진 특징
+  \n- 경계가 분명하고 깊게 자리잡고 있으며, 배꼽처럼 중앙이 파인 모양
+  \n- 신체 동일부위 발진은 크기와 진행 단계가 유사(예: 얼굴의 농포 또는 다리의 수포) ​
+  \n- 림프절병증이 흔하게 동반
+  \n- 파종성 발진으로 원심성(사지, 얼굴에 더 많은 병변), 손바닥, 발바닥에 병변이 많음
+  \n* 최근 풍토병이 아닌 다수의 국가 사레에서는 입, 항문, 성기 주변 피부병변이 관찰되어 빈번히 보고되고 있으며, 전구증상이 없는 사례 다수 보고됨
+  \n- 발진은 진행은 여러 단계(반점-수포-농포-가피)를 거치며 딱지가 형성되어 탈락
+
+
+
+\n\n진단
+
+\n○ 검체(피부병변액, 피부병변조직, 가피, 구인두도말, 혈액 등)에서 특이 유전자 검출
+
+
+\n\n치료
+
+
+\n○ 대부분 자연치료 또는 대증치료
+\n○ 국내 상용화된 특이치료제는 없으나 필요시, 항바이러스제(테코비리마트) 치료 시행
+
+
+
+\n\n환자 및 접촉자 관리
+
+
+\n○ 표준주의, 접촉주의, 비말주의 준수
+ \n- 환자: 감염력이 소실될 때까지(피부병변의 가피가 탈락되고 새로운 피부형성) 1인실 격리 입원·치료
+ \n- 의사환자: 1인실 격리병상 배정 후 검체 채취(검사결과 시까지 격리유지)
+ \n- 고위험 접촉자: 능동감시 21일(자가격리 권고), 노출 후 예방접종 가능
+ \n- 중위험 접촉자: 능동감시 21일, 노출 후 예방접종 가능, 격리의무 없음
+ \n- 저위험 접촉자: 주의사항 안내, 격리의무 없음
+
+
+
+
+
+
+
+\n\n진단 신고 기준
+
+
+\n▣ 신고범위 : 환자, 의사환자
+
+\n▣ 신고를 위한 진단 기준
+
+  \n○ 환자: 원숭이두창에 부합되는 임상증상을 나타내면서 진단을 위한 검사기준에 따라 감염병 병원체 감염이 확인된 사람
+
+  \n○ 의사환자: 임상증상 및 역학적 연관성을 고려하여 원숭이두창이 의심되나 진단을 위한 검사기준에 부합하는 검사결과가 없는 사람
+
+\n\n▣ 임상증상
+
+
+  \n○ 원인불명의 급성 발진과 함께 22년 3월 15일 이후의 다음 중 하나 이상의 증상을 보이는 경우
+    \n- 급성 발열(≥38.5℃), 두통, 림프절병증(염증, 비대 등), 요통, 근육통, 무기력증(심각한 허약감), 원심형 발진(얼굴·손바닥·발바닥 등 신체 다른 부위에서 확산되어 나타남)
+
+
+
+\n\n▣ 역학적 연관성
+
+
+  \n○ 증상 21일 이내에 아래 중 1개 이상에 해당
+    \n- 원숭이두창 환자(확진 또는 의사환자)와 접촉(성접촉 또는 성행위 포함)
+    \n- 원숭이 두창 풍토병 또는 현재 발생지역 여행력
+    \n- 아프리카 고유 종인 야생 및 반려동물 접촉력
+
+\n\n▣ 진단을 위한 검사기준
+
+  \n○ 검체(피부병병액, 피부병조직, 가피, 혈액 등)에서 특이 유전자 검출
+
+\n▣ 신고시기 : 24시간 이내 신고
+
+\n▣ 신고방법 : ‘감염병 발생 신고서’를 작성하여 관할 보건소로 팩스 또는 웹(https://is.kdca.go.kr) 입력 방법으로 신고
+
+  \n * 사망(검안) 신고는 ‘감염병환자등 사망(검안)신고서’를 작성하여 추가 신고
+
+\n▣ 질병관리청 담당부서 : 신종감염병대응과, 고위험병원체분석과(진단)
+
+
+
+
+
+
+\n\n\nFAQ
+
+
+\nQ1. 원숭이두창은 어떤 질병인가요?
+
+
+\n○ 원숭이두창 바이러스 감염에 의한 급성 발열성 발진성 질환으로 증상은 두창과 유사하나 중증도는 낮은 것으로 보고되고 있습니다.
+
+
+
+
+\n\nQ2. 원숭이두창에 감염되었을 때 주요증상은 무엇인가요?
+
+
+\n○ 발열, 발진, 두통, 근육통, 허리통증, 무기력감, 림프절병증(비대, 염증 등)이 있습니다. 발진은 일반적으로 발열 후 1~3일 이내 시작하며 얼굴, 손바닥, 발바닥에 집중하여 나타나는 경향이 있고, 간혹 입, 생식기 또는 안구에도 나타날 수 있습니다. 한편 이러한 발진 등 임상증상은 약 2~4주 지속될 수 있습니다.
+
+
+
+\n\nQ3. 원숭이두창에 감염되었을 때 얼마나 위험한가요?
+
+
+\n○ 원숭이두창에 감염된 경우, 대부분 경미하게 증상이 나타나고 2~4주 후 완치가 되는 것으로 보고되고 있으며, 대부분 대증적인 증상 완화 치료만으로도 충분합니다.
+
+\n○ 다만, 고위험군(면역저하자, 소아, 임산부, 기저질환자 등)에서 드물게 중증으로 진행되거나, 합병증(이차세균감염, 피부 손상, 심한 위염, 설사, 탈수, 기관지폐렴 등)이
+
+    발생할 수도 있으며, 폐렴 패혈증과 같은 합병증이나 뇌(뇌염) 또는 눈에 감염(각막염, 각막 궤양 등)이 일어난 경우 치명적일 수도 있습니다.
+
+
+
+\n\nQ4. 국내 유입 사례가 있나요?
+
+
+\n○ 현재까지 확인된 국내 유입사례는 1건입니다.
+
+
+
+\n\nQ5. 원숭이두창이 호흡기 전파가 가능하다고 들었는데 사실인가요?
+
+
+\n○ 현재까지 알려진 바에 따르면, 바이러스가 포함된 미세 에어로졸을 통한 공기전파를 배제할 수는 없으나, 흔하지는 않습니다.
+
+\n○ 세계보건기구(WHO) 및 미국 질병통제예방센터(CDC)에 따르면, 원숭이두창 바이러스가 포함된 미세 에어로졸을 통한 공기전파에 대해서는 아직 확인된 바 없으며,
+감염된 동물이나 사람과의 직간접 접촉이 주된 전파 경로로 알려져 있습니다.
+다만, 에어로졸이 발생하는 특정 임상적 환경(삽관‧발관, 수술‧시술 등 처치)에서는 공기 전파 가능성을 배제할 수 없습니다.
+
+
+
+\n\nQ6. 원숭이두창 감염예방을 위해 개인에게 권고되는 준수사항이 있나요?
+
+
+\n○ 손 씻기 등 기본적인 감염예방수칙을 잘 준수하고 오염된 손으로 눈,코,입 등 점막 부위를 만지지 않아야 합니다. 발진 등 의심환자와의 직간접 접촉을 삼가고,
+
+    의심증상자가 사용한 물품(침구류, 수건, 의복, 세면대 등)을 접촉하지 않아야 합니다. 야생동물 및 반려동물 접촉 시 개인보호구 칙용 등 주의가 필요합니다.
+
+\n○ 또한, 원숭이두창 발생국가로부터 귀국 후 3주 이내 발열, 오한 그리고 수포성 발진 등 의심증상이 있는 경우 동거인을 포함한 주위 사람들과 접촉하지 않도록
+
+    주의해야 합니다.
+
+   (피부병변을 긴 옷 등으로 감싸 노출을 최소화, 침구 및 식기 등 별도 사용, 공간 분리 등)
+
+  \n - 이러한 증상으로 의료기관을 방문하는 경우, 해외여행력을 의료진에게 알리는 등 감염예방 행동수칙을 준수해야 합니다.
+
+
+
+\n\nQ7. 해외여행력 없이 의심증상이 발생할 경우 검사받을 수 있나요?
+
+
+\n○ 의료기관에 방문하여 의료진이 원숭이두창을 의심하여 관할보건소로 신고를 할 경우, 기초 역학조사 후 의사환자로 판단된다면 검사를 받을 수 있습니다.
+
+
+
+\n\nQ8. 해외여행 중 원숭이두창 감염 위험이 있는 동물과 접촉력이 있는 경우 국내 입국 후 검사가 가능한가요?
+
+
+\n○ 입국 시 관련내용을 건강상태질문서에 내용을 기재하시고, 검역관에게 알릴 수 있으며, 기초역학조사 후 검역소의 판단에 따라 의사환자에 해당할 경우
+
+    1인실 격리시설로 이송 후 검사를 받을 수 있습니다.
+
+
+
+\n\nQ9. 원숭이두창 예방접종이 가능한가요?
+
+
+\n○ 원숭이두창 백신 예방접종은 상대적으로 바이러스 노출 가능성이 높은 고위험군*에게 제한적으로 접종할 예정입니다.
+
+   \n* 확진자와의 접촉 강도가 중위험 이상인 밀접접촉자와 확진환자를 진료하게 되는 의료진을 의미함
+
+   \n- 현재 일반 국민 접종은 검토하고 있지 않으며, 해외에서도 일반인이 아닌 고위험군 중심 예방접종을 시행하고 있습니다.\n"
+            />
+        <TextView
+            android:id="@+id/disease_monkeypox_tail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/disease_writer"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:text="출처: 질병관리청                               최종 수정일: 2022.08.12"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="50px"
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

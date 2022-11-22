@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".Disease_Cre_Activity">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#C8C8C8"
+        >
+
+        <TextView
+            android:id="@+id/disease_cre_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/disease_title"
+            android:layout_marginTop="30px"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="카바페넴내성장내세균속균종 (CRE) 바이러스"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/disease_cre_title2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/disease_premier"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:textSize="14sp"
+            android:text="CRE 감염병 정보에 애해 자세히 알아보자"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/disease_cre_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:padding="20px"
+            android:background="#FFFFFF"
+            android:drawableLeft="@drawable/content_cre"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/disease_cre_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="14sp"
+            android:text="\n정의
+
+\n○ 카바페넴계 항생제에 내성을 나타내는 장내세균속균종
+
+\n※ 카바페넴계 항생제에 대한 내성은 주로 카바페넴분해효소생성, 항생제의 유출 및 세포막의 투과성 감소 등에 의해 나타남
+
+
+
+\n\n방역이력 및 발생현황
+
+\n○ 국내 뿐 아니라, 전 세계적으로 증가하는 추세
+
+\n○ 표본감시에 의하면, 국내 카바페넴내성장내세균의 분리율은 1% 미만으로 보고되고 있으나, 카바페넴분해효소생성장내세균의 발생은 해마다 증가
+
+\n○ 최근 카바페넴장내세균속균종(CRE) 중 카바페넴분해효소를 생성하는 카바페넴장내세균속균종(CPE)에 의한 감염증이 증가하고 있음
+
+\n○ 2010년 12월 법정감염병(지정감염병)으로 지정되어 표본감시체계로 운영되어 오다 2017년 6월 3일부터 3군 감염병(전수감시체계)으로 전환되어 운영
+
+\n○ 2020년 1월 1일 감염병예방법 개정(분류체계 개편)에 따라 제2급감염병으로 변경
+
+
+
+\n\n감염경로
+
+\n○ CRE 감염증 환자 또는 병원체보유자와의 접촉, 오염된 기구나 물품 및 환경표면 등을 통해 전파 가능
+
+
+
+\n\n감염위험요인
+
+\n○ 장내세균속균종은 장관 내에 정상적으로 존재
+
+\n○ 인공호흡장치, 중심정맥관, 도뇨관을 사용하고 있거나, 외과적 상처가 있는 중환자는 감염위험이 높음
+
+
+
+\n\n주요증상 및 임상경과
+
+\n○ 주로 요로감염을 일으키며 위장관염, 폐렴 및 패혈증 등 다양한 감염증 유발
+
+\n○ 카바페넴 내성을 나타내는 경우 여러 계열 항생제에 내성을 나타내는 경우가 많아 치료가 어려움
+
+
+
+\n\n치 료
+
+\n○ 감염증 치료 시 항생제 감수성 시험에 근거하여 감수성 있는 항생제로 치료
+
+
+
+\n\n예방 및 관리
+
+\n○ 원내 감염관리 전담팀 구성 및 표준화된 감염관리 지침 마련
+
+\n○ 환자와의 접촉을 통한 감염전파 예방을 위한 손씻기 등의 표준주의 및 접촉주의 준수
+
+\n○ 의료기구의 소독/멸균을 철저히 시행하며 침습적 시술시 무균술 준수
+
+\n○ 의료기관에서는 카바페넴 내성 장내세균이 분리되는지 감시하고, 분리되는 경우에는 환자 격리, 접촉주의, 철저한 개인보호구 사용, 접촉자 검사 등 감염관리를 통해 확산방지
+
+
+
+\n\n진단 신고 기준
+
+\n▣ 신고범위 : 환자, 병원체보유자
+
+\n\n▣ 신고를 위한 진단기준
+
+  \n○ 환자 : 혈액에서 카바페넴계 항생제에 내성을 나타내는 장내세균속균종이 분리된 사람
+
+  \n○ 병원체보유자 : 혈액 이외 임상 검체에서 카바페넴계 항생제에 내성을 나타내는 장내세균속균종이 분리된 사람
+
+    \n* 환자, 병원체보유자 중 카바페넴분해효소 생성이 확인된 사람은 별도 신고
+
+\n\n▣ 임상증상
+
+  \n○ 요로감염, 위장관염, 폐렴 및 패혈증 등 다양한 감염증 유발
+
+\n\n▣ 진단을 위한 검사기준
+
+  \n○ 임상검체에서 카바페넴계 항생제 내성* 장내세균속균종 분리 동정
+
+\n\n▣ 신고시기 : 24시간 이내 신고
+
+\n\n▣ 신고방법 : 감염병 발생 신고서를 작성하여 관할 보건소로 팩스 또는 웹(http://is.cdc.go.kr)의 방법으로 신고
+
+ \n* 사망(검안) 신고는 감염병환자등 사망(검안) 신고서, 병원체검사결과 신고는 병원체 검사결과 신고서를 작성하여 추가 신고
+
+\n\n▣ 질병관리청 담당부서 : 의료감염관리과
+
+
+
+\n\nFAQ
+
+\nQ1. 카바페넴내성장내세균속균종(CRE)은 무엇인가요?
+
+\n○ 카바페넴내성장내세균속균종(CRE)은 카바페넴계열 항생제에 내성을 가지고 있는 장내세균속균종을 말합니다.  장내세균속균종은 사람의 장에서 정상적으로 존재하는데, 요로나 혈류 등 다른부위로 유입되어 요로감염, 혈류감염, 상처감염 및 폐렴과 같은 심각한 감염을 일으킬 수 있습니다. 카바페넴은 심각한 감염을 치료하기 위한 항생제이나, 내성을 획득한 세균에 대해서는 효과적이지 못합니다. 따라서, 카바페넴내성장내세균속균종(CRE)은 공중보건에 새로운 위협요인이 되고있습니다.
+
+\n\nQ2. 카바페넴내성장내세균속균종(CRE)은 어떻게 전파되나요?
+
+\n○ 일반적으로 CRE에 감염된 환자 또는 병원체보유자와의 접촉(특히 상처나 대변)을 통해 사람 간 전파가 이루어집니다. 예를 들면 인공호흡기, 중심정맥관, 도뇨관과 같은 의료장치 사용 또는 부상이나 수술로 인해 CRE균이 몸 안으로 들어갔을 때 감염될 수 있습니다.
+
+\n\nQ3. 카바페넴내성장내세균속균종(CRE)에 감염되었을 때 치료해야 하나요?
+
+\n○ CRE 감염자 중 감염증을 나타내지 않는 병원체보유자는 항생제 치료를 할 필요가 없습니다. 만약 CRE가 감염증의 원인이 된다면, 항생제 감수성 시험에 근거하여 감수성 있는 항생제로 치료 할 수 있습니다.
+
+\n\nQ4. 의료기관에서 CRE 전파 예방을 위한 지침은 무엇인가요?
+
+\n○ CRE 환자(병원체보유자 포함)와 접촉하기 전․ 후에 물과 비누 또는 알코올 손소독제를 이용하여 손위생
+
+\n○ CRE 환자(병원체보유자 포함)의 방에 들어가기 전 장갑과 가운 착용
+
+\n○ CRE 환자(병원체보유자 포함) 1인실 격리 또는 CRE 환자(병원체보유자 포함)끼리만 병실을 공유 의료용품(혈압계, 체온계 등)은 가능한 환자 전용으로 사용 및 전담 의료진 배치
+
+\n○ CRE 환자의 방에서 나오기 전 장갑과 가운 탈의 및 손위생 필요시에만 항생제 처방
+
+\n※ 세부 사항은 2017년 의료관련감염 표준예방지침을 참고하여 감염관리
+
+\n\nQ5. 집에서 CRE감염 환자를 간호해야 할 때, 간호제공자가 주의 할 점은 무엇인가요?
+
+\n○ 상처 접촉 후, 화장실 사용을 도운 경우, 대변을 치운 후 반드시 손위생
+
+\n○ 환자의 의료장치(도뇨관 등)를 다루기 전·후 손위생
+
+\n○동일한 간호제공자가 2명 이상의 환자를 간호할 때는 접촉주의 준수가 더욱 더 중요하며 환자별로 개인 물품을 사용하도록 함
+\n"
+            />
+        <TextView
+            android:id="@+id/disease_cre_tail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/disease_writer"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:text="출처: 질병관리청                               최종 수정일: 2020.09.10"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="50px"
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
